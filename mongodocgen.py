@@ -129,7 +129,7 @@ movies_list = list(movies_data.values())
 #print(json.dumps(movies_list, indent=2))
 
 # Connect to MongoDB and insert the document
-mongo_url = "mongodb+srv://Janidu:JanBas12@janiducluster.wrpfosj.mongodb.net/moviesdb?retryWrites=true&w=majority&appName=JaniduCluster"
+mongo_url = "" # Connection String
 client = MongoClient(mongo_url)
 
 # Select the database and collection
